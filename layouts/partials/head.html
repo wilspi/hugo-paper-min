@@ -8,7 +8,7 @@
 {{- end }}
 
 {{- /* Title */}}
-<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ if .Title }}{{ .Title }}{{ end }}{{ end }}</title>
 
 {{- /* Meta */}}
 {{- if .IsHome }}
@@ -98,6 +98,12 @@
 <script defer crossorigin="anonymous" src="{{ $highlight.RelPermalink }}" onload="hljs.initHighlightingOnLoad();"></script>
 {{- end }}
 {{- end }}
+
+
+{{- /* Google Fonts */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mukta&display=swap" rel="stylesheet">
 
 {{- /* Favicons */}}
 <link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}">

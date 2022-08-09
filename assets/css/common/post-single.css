@@ -34,6 +34,7 @@
 
 .post-content {
     color: var(--content);
+    /*margin-bottom: var(--content-gap);*/
 }
 
 .post-content h3,
@@ -302,7 +303,7 @@
 }
 
 .post-tags a,
-.share-buttons,
+/*.share-buttons,*/
 .paginav {
     border-radius: var(--radius);
     background: var(--code-bg);
@@ -324,8 +325,18 @@
     background: var(--border);
 }
 
+.share-heading {
+    margin: 35px 0 0;
+    padding-inline-start: var(--radius);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Indie Flower', cursive;
+}
+
 .share-buttons {
-    margin: 14px 0;
+    /*margin: 14px 0; */
+    margin: 0 0 14px;
     padding-inline-start: var(--radius);
     display: flex;
     justify-content: center;
