@@ -1,52 +1,52 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "PaperMod"
+name = "hugo-paper-min"
 license = "MIT"
-licenselink = "https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE"
+licenselink = "https://github.com/wilspi/hugo-paper-min/blob/master/LICENSE"
 description = "A fast, clean, responsive Hugo theme"
-homepage = "https://adityatelange.github.io/hugo-PaperMod/"
-demosite = "https://adityatelange.github.io/hugo-PaperMod/"
+homepage = "https://wilspi.github.io/hugo-paper-min/"
+demosite = "https://wilspi.github.io/hugo-paper-min/"
 tags = [
-  "responsive",
-  "simple",
-  "clean",
-  "light",
-  "dark",
-  "blog",
-  "minimalist",
-  "highlight.js",
-  "search"
+    "responsive",
+    "simple",
+    "clean",
+    "light",
+    "dark",
+    "blog",
+    "minimalist",
+    "highlight.js",
+    "search",
 ]
 features = [
-  "responsive",
-  "single-column",
-  "blog",
-  "cover-image",
-  "table-of-contents",
-  "opengraph",
-  "highlight.js",
-  "favicon",
-  "archive",
-  "share-icons",
-  "cover",
-  "multilingual",
-  "social-icons",
-  "minified-assets",
-  "theme-toggle",
-  "menu-location-indicator",
-  "scroll-to-top",
-  "search"
+    "responsive",
+    "single-column",
+    "blog",
+    "cover-image",
+    "table-of-contents",
+    "opengraph",
+    "highlight.js",
+    "favicon",
+    "archive",
+    "share-icons",
+    "cover",
+    "multilingual",
+    "social-icons",
+    "minified-assets",
+    "theme-toggle",
+    "menu-location-indicator",
+    "scroll-to-top",
+    "search",
 ]
 min_version = "0.146.0"
 
 [author]
-  name = "Aditya Telange"
-  homepage = "https://github.com/adityatelange/"
+name = "wilspi"
+homepage = "https://github.com/wilspi/"
 
 # If porting an existing theme
 [original]
-  name = "Paper"
-  author = "nanxiaobei"
-  homepage = "https://github.com/nanxiaobei"
-  repo = "https://github.com/nanxiaobei/hugo-paper/"
+name = "Paper-Mod"
+author = "adityatelange"
+homepage = "https://github.com/adityatelange"
+repo = "https://github.com/adityatelange/hugo-paperMod/"
