@@ -33,7 +33,7 @@
     /*padding-right: 4px;*/
 }
 
-.logo a img {
+.logo a img, .logo a svg {
     display: inline;
     vertical-align: middle;
     pointer-events: none;

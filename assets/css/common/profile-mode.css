@@ -13,10 +13,15 @@
 .profile .profile_inner h1 {
     font-family: 'Indie Flower', cursive;
     padding: 12px 0;
+
+.profile .profile_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .profile img {
-    display: inline-table;
     border-radius: 50%;
     /*pointer-events: none;*/
 }
@@ -24,7 +29,6 @@
 .buttons {
     flex-wrap: wrap;
     max-width: 400px;
-    margin: 0 auto;
 }
 
 .button {
